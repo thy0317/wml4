@@ -3,19 +3,14 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/Libraries",
-                "${workspaceFolder}/Libraries/CMSIS",
-                "${workspaceFolder}/Libraries/inc",
-                "${workspaceFolder}/Applications"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                "__CC_ARM",
-                "STM32F10X_MD",
-                "USE_STDPERIPH_DRIVER"
+                "__CC_ARM"
+                
             ],
             "cStandard": "c11",
             "cppStandard": "c++17"

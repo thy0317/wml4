@@ -130,17 +130,6 @@ void PendSV_Handler(void)
 {
 }
 #endif
-
-/**
-  * @brief  This function handles SysTick Handler.
-  * @param  None
-  * @retval None
-  */
-#ifndef RTE_CMSIS_RTOS_RTX
-void SysTick_Handler(void)
-{
-}
-#endif
 /******************************************************************************/
 /*                 STM32F10x Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
